@@ -13,6 +13,10 @@
 		03F2490721B7D833009E416A /* coreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03F2490521B7D833009E416A /* coreDataExample.xcdatamodeld */; };
 		03F2490921B7D833009E416A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F2490821B7D833009E416A /* Assets.xcassets */; };
 		03F2490C21B7D833009E416A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F2490A21B7D833009E416A /* LaunchScreen.storyboard */; };
+		03F2491421B7D8DA009E416A /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2491321B7D8DA009E416A /* ListTableViewController.swift */; };
+		03F2491621B7DAF3009E416A /* AddRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2491521B7DAF3009E416A /* AddRecordViewController.swift */; };
+		03F2491921B7DB86009E416A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F2491821B7DB85009E416A /* CoreData.framework */; };
+		03F2491B21B7E00A009E416A /* EditDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2491A21B7E00A009E416A /* EditDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		03F2490821B7D833009E416A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03F2490B21B7D833009E416A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03F2490D21B7D833009E416A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F2491321B7D8DA009E416A /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		03F2491521B7DAF3009E416A /* AddRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordViewController.swift; sourceTree = "<group>"; };
+		03F2491821B7DB85009E416A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03F2491A21B7E00A009E416A /* EditDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F2491921B7DB86009E416A /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,7 @@
 			children = (
 				03F248FD21B7D833009E416A /* coreDataExample */,
 				03F248FC21B7D833009E416A /* Products */,
+				03F2491721B7DB85009E416A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +73,19 @@
 				03F2490A21B7D833009E416A /* LaunchScreen.storyboard */,
 				03F2490D21B7D833009E416A /* Info.plist */,
 				03F2490521B7D833009E416A /* coreDataExample.xcdatamodeld */,
+				03F2491321B7D8DA009E416A /* ListTableViewController.swift */,
+				03F2491521B7DAF3009E416A /* AddRecordViewController.swift */,
+				03F2491A21B7E00A009E416A /* EditDataViewController.swift */,
 			);
 			path = coreDataExample;
+			sourceTree = "<group>";
+		};
+		03F2491721B7DB85009E416A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F2491821B7DB85009E416A /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +162,10 @@
 			files = (
 				03F2490721B7D833009E416A /* coreDataExample.xcdatamodeld in Sources */,
 				03F2490121B7D833009E416A /* ViewController.swift in Sources */,
+				03F2491B21B7E00A009E416A /* EditDataViewController.swift in Sources */,
 				03F248FF21B7D833009E416A /* AppDelegate.swift in Sources */,
+				03F2491621B7DAF3009E416A /* AddRecordViewController.swift in Sources */,
+				03F2491421B7D8DA009E416A /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
